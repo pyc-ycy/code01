@@ -6,27 +6,6 @@
 #include "hello.h"
 int main()
 {
-	FILE* f = NULL;
-	f = fopen("test.txt", "r");
-	// 分别用fscanf、fgets 和 fgetc 读取文件内容
-	char buff[1024];
-	fscanf(f, "%s", buff);
-	printf("%s\n", buff);
-	fclose(f);
-	f = fopen("test.txt", "a");
-	fprintf(f, ",一些追加内容");
-	fclose(f);
-	f = fopen("test.txt", "r");
-	fgets(buff, 50, f);
-	printf("%s\n", buff);
-	fclose(f);
-	f = fopen("test.txt", "a");
-	fputs(",Trying写入用fputs", f);
-	fclose(f);
-	f = fopen("test.txt", "r");
-	fscanf(f, "%s", buff);
-	printf("%s\n", buff);
-	fclose(f);
 	return 0;
 }
 

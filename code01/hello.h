@@ -8,18 +8,19 @@ int hello(void)
 	return 12;
 }
 
-void formatIO(void)
+void formatIn(void)
 {
 	int num1 = 1024;
 	long num2 = 655356;
 	int num3 = -15;
 	int a = 65;
 	float num4 = 123.456;
+	long num5 = 1024578964155;
 	char str[24] = "Hello world\0";
 	// 首先体验%d格式输出
 	printf("num1=%d,num4=%d\n", num1, num4);
 	//%ld
-	printf("num2=%ld\n", num2);
+	printf("num2=%d,num5=%ld\n", num2, num5);
 	// %md
 	printf("num1=%5d, num2=%5d\n", num1, num2);
 	// %u
@@ -31,5 +32,5 @@ void formatIO(void)
 	// %s
 	printf("str=%s\n", str);
 	//%o %x
-	printf("num2=%o, num4=%x", num2, num4);
+	printf("num2=%o, num2=%x", num2, num2);
 }
