@@ -34,3 +34,14 @@ void formatIn(void)
 	//%o %x
 	printf("num2=%o, num2=%x", num2, num2);
 }
+
+void formatOut(void)
+{
+	int num1;
+	float num2;
+	double num3;
+	char* str[100];
+	printf("请按照格式进行输入：\n");
+	scanf("%d,%f,%lf,%s", &num1, &num2, &num3, &str);
+	printf("num1=%d,num2=%f,num3=%lf,str=%s", num1, num2, num3, str);
+}

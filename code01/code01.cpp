@@ -6,6 +6,7 @@
 #include "hello.h"
 int main()
 {
+	formatOut();
 	return 0;
 }
 
