@@ -1,6 +1,6 @@
 #pragma once
 #include <iostream>
-
+using namespace std;
 int hello(void)
 {
 	std::cout << "Hello, I am trying to print something into screen by a header file" << std::endl;
@@ -44,4 +44,19 @@ void formatOut(void)
 	printf("请按照格式进行输入：\n");
 	scanf("%d,%f,%lf,%s", &num1, &num2, &num3, &str);
 	printf("num1=%d,num2=%f,num3=%lf,str=%s", num1, num2, num3, str);
+}
+
+void testCPPIO(void)
+{
+	// 如果在文件头部没有使用 using namespace std;
+	// 则以下代码在使用 cout 或 cin 时请改为 std::cout 或 std::cin
+	int t;
+	cout << "请输入一个整数：";
+	cin >> t;
+	cout << "你所输入的整数为：" << t << endl;	// endl 表示换行
+	int num;
+	char s[50];
+	cout << "请输入一个整数和字符串：";
+	cin >> num >> s;
+	cout << "你所输入的整数：" << num << ",你所输入的字符串：" << s << endl;
 }

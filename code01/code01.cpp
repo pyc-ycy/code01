@@ -6,7 +6,7 @@
 #include "hello.h"
 int main()
 {
-	formatOut();
+	testCPPIO();
 	return 0;
 }
 
