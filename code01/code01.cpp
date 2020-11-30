@@ -6,7 +6,7 @@
 #include "AboutVariable.h"
 int main()
 {
-	testRubbishDatum();
+	templateOfUsingDataType();
 	return 0;
 }
 
