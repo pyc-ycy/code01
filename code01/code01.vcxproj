@@ -143,6 +143,7 @@
     <ClCompile Include="code01.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AboutVariable.h" />
     <ClInclude Include="hello.h" />
   </ItemGroup>
   <ItemGroup>

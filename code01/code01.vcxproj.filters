@@ -23,6 +23,9 @@
     <ClInclude Include="hello.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="AboutVariable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="test.txt">

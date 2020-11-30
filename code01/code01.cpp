@@ -3,10 +3,10 @@
 
 #include <iostream>
 #include <stdio.h>
-#include "hello.h"
+#include "AboutVariable.h"
 int main()
 {
-	CPPFormatIO();
+	testRubbishDatum();
 	return 0;
 }
 
