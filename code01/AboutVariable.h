@@ -37,3 +37,18 @@ void testMyStudent(void)
 	cout << "name=" << stu01.name << ",age=" << stu01.age << ",sex=" << stu01.sex << endl;
 	cout << "name=" << stu02->name << ",age=" << stu02->age << ",sex=" << stu02->sex << endl;
 }
+
+class Student
+{
+public:
+	char name[12] = "Tom";	//学生姓名
+	int age = 24;	// 学生年龄
+	bool sex = 1;	// 1-boy,0-girl
+};
+void testStudent(void)
+{
+	Student stu;
+	cout << "name=" << stu.name << ",age=" << stu.age << ",sex=" << stu.sex << endl;
+	Student* stu02 = new Student;
+	cout << "name=" << stu02->name << ",age=" << stu02->age << ",sex=" << stu02->sex << endl;
+}

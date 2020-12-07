@@ -6,7 +6,7 @@
 #include "AboutVariable.h"
 int main()
 {
-	testMyStudent();
+	testStudent();
 	return 0;
 }
 
