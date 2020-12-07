@@ -7,6 +7,7 @@
 int main()
 {
 	testStudent();
+	cout<<"Hello world!"<<endl;
 	return 0;
 }
 
