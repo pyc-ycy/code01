@@ -6,7 +6,7 @@
 #include "AboutVariable.h"
 int main()
 {
-	templateOfUsingDataType();
+	testMyStudent();
 	return 0;
 }
 

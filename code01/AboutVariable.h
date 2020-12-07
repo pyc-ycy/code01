@@ -4,6 +4,7 @@
 #include <stdio.h>
 using namespace std;
 
+#define Pi 3.14159
 //void testRubbishDatum(void)
 //{
 //	int a;
@@ -20,4 +21,19 @@ void templateOfUsingDataType(void)
 	cout.fill('#');
 	cout << setiosflags(ios::right);
 	cout << b << endl;
+}
+
+struct MyStudent
+{
+public:
+	char name[12] = "Tom";	//学生姓名
+	int age = 24;	// 学生年龄
+	bool sex = 1;	// 1-boy,0-girl
+};
+void testMyStudent(void)
+{
+	MyStudent stu01;
+	MyStudent* stu02 = new MyStudent;
+	cout << "name=" << stu01.name << ",age=" << stu01.age << ",sex=" << stu01.sex << endl;
+	cout << "name=" << stu02->name << ",age=" << stu02->age << ",sex=" << stu02->sex << endl;
 }
