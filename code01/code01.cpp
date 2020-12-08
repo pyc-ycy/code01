@@ -7,7 +7,9 @@
 int main()
 {
 	testStudent();
-	cout<<"Hello world!"<<endl;
+	cout << "Hello world!" << endl;
+	int t = 1 + 2 * 3 / 4 - 5;
+	cout << t << endl;
 	return 0;
 }
 

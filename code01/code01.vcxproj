@@ -145,6 +145,7 @@
   <ItemGroup>
     <ClInclude Include="AboutVariable.h" />
     <ClInclude Include="hello.h" />
+    <ClInclude Include="NumOperate.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="test.txt" />
