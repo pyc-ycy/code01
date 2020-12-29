@@ -3,13 +3,18 @@
 
 #include <iostream>
 #include <stdio.h>
-#include "AboutVariable.h"
+#include "NumOperate.h"
 int main()
 {
-	testStudent();
-	cout << "Hello world!" << endl;
-	int t = 1 + 2 * 3 / 4 - 5;
-	cout << t << endl;
+	demo01();
+	/*int* t = new int[5];
+	cout << "请输入5个整数：";
+	for (int i = 0; i < 5; i++)
+		cin >> t[i];
+	cout << &t << endl;
+	delete[] t;
+	t = NULL;
+	cout << &t << endl;*/
 	return 0;
 }
 
