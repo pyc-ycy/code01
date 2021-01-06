@@ -30,3 +30,26 @@ void demo01(void)
 		<< "float/double=" << t8 << endl
 		<< "double/float=" << t9 << endl;
 }
+
+void compare(void)
+{
+	int num1 = 145;
+	int num2 = 65;
+	int num3 = num1 - num2;
+	int num4 = num2 - num1;
+	cout << "num1=" << num1 << endl
+		<< "num2=" << num2 << endl
+		<< "num1-num2=" << num3 << endl
+		<< "num2-num1=" << num4 << endl;
+}
+void compare01(void)
+{
+	int num1 = 145;
+	int num2 = 65;
+	float num3 = (1.0 * num1) / num2;
+	float num4 = (1.0 * num2) / num1;
+	cout << "num1=" << num1 << endl
+		<< "num2=" << num2 << endl
+		<< "num1/num2=" << num3 << endl
+		<< "num2/num1=" << num4 << endl;
+}

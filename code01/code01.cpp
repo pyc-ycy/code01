@@ -6,15 +6,7 @@
 #include "NumOperate.h"
 int main()
 {
-	demo01();
-	/*int* t = new int[5];
-	cout << "请输入5个整数：";
-	for (int i = 0; i < 5; i++)
-		cin >> t[i];
-	cout << &t << endl;
-	delete[] t;
-	t = NULL;
-	cout << &t << endl;*/
+	compare01();
 	return 0;
 }
 
