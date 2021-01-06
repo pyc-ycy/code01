@@ -3,14 +3,16 @@
 
 #include <iostream>
 #include <stdio.h>
+#include <math.h>
 #include "NumOperate.h"
 int main()
 {
-	sloveECFC();
+	testPow();
+	/*sloveECFC();
 	cout << "=================" << endl;
 	sloveECFC();
 	cout << "=======================" << endl;
-	sloveECFC();
+	sloveECFC();*/
 	return 0;
 }
 

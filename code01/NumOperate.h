@@ -84,3 +84,10 @@ void sloveECFC(void)
 		cout << "x2=" << (-t) / sqrtf(A) << "-" << t3 / sqrtf(A) << "i" << endl;
 	}
 }
+
+void testPow(void)
+{
+	cout << "2的三次方运算结果为:" << pow(2, 3) << endl;
+	cout << "16 的开平方根为:" << pow(16, 1.0 / 2) << endl;
+	cout << "16 先开平方再立方：" << pow(16, 3.0 / 2) << endl;
+}
