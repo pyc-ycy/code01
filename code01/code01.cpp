@@ -6,7 +6,11 @@
 #include "NumOperate.h"
 int main()
 {
-	compare01();
+	sloveECFC();
+	cout << "=================" << endl;
+	sloveECFC();
+	cout << "=======================" << endl;
+	sloveECFC();
 	return 0;
 }
 
