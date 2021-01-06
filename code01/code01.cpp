@@ -7,7 +7,7 @@
 #include "NumOperate.h"
 int main()
 {
-	testPow();
+	testMove();
 	/*sloveECFC();
 	cout << "=================" << endl;
 	sloveECFC();

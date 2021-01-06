@@ -91,3 +91,12 @@ void testPow(void)
 	cout << "16 的开平方根为:" << pow(16, 1.0 / 2) << endl;
 	cout << "16 先开平方再立方：" << pow(16, 3.0 / 2) << endl;
 }
+
+void testMove(void)
+{
+	unsigned int num = 22;
+	unsigned int t = num << 4;
+	unsigned int n = num >> 1;
+	cout << (num << 4) << endl;
+	cout << n << endl;
+}
